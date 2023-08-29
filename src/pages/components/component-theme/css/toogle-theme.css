@@ -1,12 +1,12 @@
 .body-circle{
-    width: 43.5px;
+    width: 44px;
     height: 22px;
     background-color: var(--text-gray);
     display: flex;
     justify-content: space-between;
     align-items: center;
     border-radius: 20px;
-    padding: 0px 2px;
+    padding: 3px;
     z-index: 1;
 }
 

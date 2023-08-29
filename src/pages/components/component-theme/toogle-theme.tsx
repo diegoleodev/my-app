@@ -1,4 +1,5 @@
 import { useState, useEffect } from 'react';
+import { IoSunny, IoMoon } from 'react-icons/io5';
 
 const TooogleTheme = () => {
 
@@ -28,8 +29,8 @@ const TooogleTheme = () => {
   
     return(
         <div className="body-circle" onClick={toggleDarkMode} title='Theme'>
-            <i className="bi bi-moon"></i>
-            <i className="bi bi-brightness-low"></i>
+            <IoMoon size={16} color='white'/>
+            <IoSunny size={16} color='white' />
             <button className="circle"></button>
         </div>
     )
