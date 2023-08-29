@@ -1,6 +1,8 @@
 
 import Image from "next/image"
 import image from '../../../../public/images/fotoPerfil.png'
+import { FaGithub, FaLinkedin, FaInstagram, FaAngleUp  } from 'react-icons/fa';
+
 
 
 const PagHome = () => {
@@ -26,15 +28,15 @@ const PagHome = () => {
 
             <div className="links-redes">
                 <div className="redes">
-                    <a target="_blank" href="https://github.com/diegoleodev"><i className="bi bi-github"></i>Github</a>
+                    <a target="_blank" href="https://github.com/diegoleodev"><FaGithub size={22}/>Github</a>
                 </div>
 
                 <div className="redes">
-                    <a target="_blank" href="https://www.linkedin.com/in/diegoleodev/"><i className="bi bi-linkedin"></i>Linkedin</a>
+                    <a target="_blank" href="https://www.linkedin.com/in/diegoleodev/"><FaLinkedin size={22} />Linkedin</a>
                 </div>
 
                 <div className="redes">
-                    <a target="_blank" href="https://www.instagram.com/diegoo_leo/"><i className="bi bi-instagram"></i>Instagram</a>
+                    <a target="_blank" href="https://www.instagram.com/diegoo_leo/"><FaInstagram size={22} />Instagram</a>
                 </div>
             </div>
 
