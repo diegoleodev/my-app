@@ -29,6 +29,19 @@
 
 }
 
+.corpoMenu .btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 4px;
+    cursor: pointer;
+    gap: 5px;
+}
+
+.corpoMenu .btn span{
+    font-weight: bold;
+}
+
 .corpoMenu .linksMobile-active{
     display: block;
 }

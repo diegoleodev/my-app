@@ -1,5 +1,6 @@
 import { useState, useEffect, useRef } from 'react';
 import Link from "next/link"
+import {FiPlus  } from 'react-icons/fi';
 
 
 export default function LinksMobile() {
@@ -18,6 +19,8 @@ export default function LinksMobile() {
     };
 
 
+    
+
 
     useEffect(() => {
         if (isActive) {
@@ -31,12 +34,16 @@ export default function LinksMobile() {
         };
     }, [isActive]);
 
+
+   
+
     return(
         <>
             <div className='corpoMenu' ref={menuRef}>
-                <div onClick={toggleNavigation}>
-                    <i className={`bi ${isActive ?'bi-x-lg' : 'bi-list'}`} id='icon'></i>
+                <div onClick={toggleNavigation} className='btn'>   
+                    <span>Menu</span><FiPlus  size={20}/>
                 </div>
+
                 <div className={`linksMobile ${isActive ? 'linksMobile-active' : ''}`}>
                     <ul onClick={toggleNavigation}>
                         <li><Link className="item-link" href="/"  >Home</Link></li>
