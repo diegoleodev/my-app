@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Joti+One&family=Righteous&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+*{
+    font-family: 'Roboto', sans-serif;
+}
+
+.body-nav{
+    borde: 1px solid rgb(0, 136, 255);
+    max-width: 650px;
+    min-width: 290px;
+    margin: 0 auto;
+
+    
+    
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.body-nav .top-bar{
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.top-bar .name-logo h1{
+    font-family: 'Righteous', cursive;
+    font-size: 28px;
+}
+.body-nav .top-bar .links{
+    
+}
+.body-nav .top-bar .links ul{
+    display: flex;
+    gap: 20px;
+
+}
+
+.body-nav .top-bar .links ul:hover .item-link {
+    color: var(--text-gray02);
+}
+
+.body-nav .top-bar .links ul:hover .item-link:hover {
+    color: var(--text-colorgray);
+    box-shadow: 0 2px 0 0 currentColor;
+}
+
+
+.body-nav .top-bar .links ul li{
+    list-style: none;
+}
+.body-nav .top-bar .links ul li .item-link{
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    color: var(--text-colorgray);
+}
+
+
+
+
+.by-diego{
+    margin: 0 auto;
+    bottom: 10px;   
+}
+
