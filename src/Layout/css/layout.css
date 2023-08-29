@@ -66,5 +66,6 @@
 .by-diego{
     margin: 0 auto;
     bottom: 10px;   
+    display: flex;
 }
 

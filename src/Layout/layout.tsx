@@ -11,7 +11,6 @@ export default function DashboardLayout({
   }) {
     return (
       <section className="body-nav">
-        <div>
             <nav className="top-bar">
                 <div className="name-logo">
                     <h1>DiegoDev</h1>
@@ -28,9 +27,7 @@ export default function DashboardLayout({
                 <LinksMobile></LinksMobile>
             </nav>
             {children}
-        </div>
-
-        <span className="by-diego">by diego leonardo</span>
+        
       </section>
     )
   }
