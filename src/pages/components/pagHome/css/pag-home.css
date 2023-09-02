@@ -102,22 +102,20 @@
 
 
 .body-home .contatos{
-   
     margin-top: 30px;
-    display: flex;
+    width: 240px;
     gap: 30px;
     padding: 0px 10px;
-
     opacity: 0;
     animation: fadeInAnimation 2s ease-in forwards;
 }
 
 .body-home .contato{
+    display: flex;
+    gap: 30px;
     overflow: hidden;
-}
-
-.body-home .contatos:hover a {
-    color: var(--text-gray02);
+    background-olor: brown;
+    
 }
 
 .body-home .contato a:hover {
@@ -129,7 +127,7 @@
     text-decoration: none;
     display: flex;
     gap: 4px;
-    color: var(--text-gray);
+    color: var(--text-color);
     font-weight: bold;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }

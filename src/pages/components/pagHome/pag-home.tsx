@@ -43,9 +43,6 @@ const PagHome = () => {
             <div className="contatos">
                 <div className="contato">
                     <a href="mailto:diegoleonardo912@gmail.com"><i className="bi bi-arrow-up-right"></i>Email</a>
-                </div>
-
-                <div className="contato">
                     <a target="_blank" href="https://api.whatsapp.com/send?phone=5561983771104&text=SUA%20MENSAGEM%20AQUI"><i className="bi bi-arrow-up-right"></i>WhatsApp</a>
                 </div>
             </div>
