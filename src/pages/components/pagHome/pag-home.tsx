@@ -36,7 +36,7 @@ const PagHome = () => {
                 </div>
 
                 <div className="redes">
-                    <a target="_blank" href="https://www.instagram.com/diegoo_leo/"><FaInstagram size={22} />Instagram</a>
+                    <a target="_blank" href="https://www.instagram.com/diegoleo_dev/"><FaInstagram size={22} />Instagram</a>
                 </div>
             </div>
 
